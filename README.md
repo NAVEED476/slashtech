@@ -1,7 +1,4 @@
 
-# Node.js Express with MySQL Boilerplate
-
-This is a boilerplate for a Node.js Express application with MySQL integration.
 
 ## Getting Started
 
@@ -19,13 +16,13 @@ Make sure you have the following installed on your system:
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/NAVEED476/slashtech.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd node-express-mysql-boilerplate
+   cd backend
    ```
 
 3. Install dependencies:
@@ -34,24 +31,7 @@ Make sure you have the following installed on your system:
    npm install
    ```
 
-### Configuration
 
-1. **MySQL Configuration:**
-
-   - Create a MySQL database for the application.
-   - Update the MySQL connection settings in `config/db.config.js` with your database credentials.
-
-2. **Environment Variables:**
-
-   - Create a `.env` file in the root directory.
-   - Add environment variables for sensitive information like database credentials. For example:
-
-     ```env
-     DB_HOST=localhost
-     DB_USER=root
-     DB_PASSWORD=your_password
-     DB_NAME=your_database_name
-     ```
 
 ### Running the Application
 
@@ -61,7 +41,7 @@ Start the server:
 npm start
 ```
 
-The server will start on port 3000 by default. You can access it at [http://localhost:3000](http://localhost:3000).
+The server will start on port 5000 by default. You can access it at [http://localhost:5000](http://localhost:5000).
 
 ## Built With
 
@@ -85,4 +65,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to customize this template according to your specific project requirements and preferences. Add sections or details as needed.
